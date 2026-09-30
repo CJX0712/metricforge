@@ -1,0 +1,24 @@
+# 作者: 晨星 —— MetricForge 工程配置（ruff / pytest）
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+# RUF059：训练循环中故意解包多余返回值（如 `loss, dZ, dP, aux = f()` 仅用部分），属惯用法。
+# PIE810：tools/ 探针脚本中的风格细节（合并 endswith），探针工具不影响核心库。
+ignore = ["RUF059", "PIE810"]
+
+[tool.ruff.lint.per-file-ignores]
+# oracle.py / run.py / eval 中的盲 except 均为"可选依赖探测 / 安全降级"的有意设计。
+"metricforge/oracle.py" = ["BLE001"]
+"metricforge/bench/run.py" = ["BLE001"]
+"metricforge/eval/metrics.py" = ["BLE001"]
+# 测试中刻意捕获广泛异常以验证错误路径，属合理用法。
+"tests/**" = ["BLE001"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["metricforge"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

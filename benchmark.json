@@ -1,0 +1,2039 @@
+{
+  "benchmark": {
+    "protocol": "open",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "dim_out": 16,
+    "epochs": 80,
+    "results": {
+      "s1_gauss_blobs": {
+        "n_samples": 480,
+        "n_features": 2,
+        "n_classes": 6,
+        "methods": {
+          "b1_knn": {
+            "seed0": {
+              "map_at_r": 0.9869417430757963,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 154.9
+            },
+            "seed1": {
+              "map_at_r": 0.8967386531764217,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 156.9
+            },
+            "seed2": {
+              "map_at_r": 0.9868367928442514,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 149.7
+            }
+          },
+          "b2_lmnn": {
+            "seed0": {
+              "map_at_r": 0.8515129333324735,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.985,
+              "rss_mb": 156.6
+            },
+            "seed1": {
+              "map_at_r": 0.20386108859181756,
+              "recall_at_1": 0.4041666666666667,
+              "knn_acc": 0.4041666666666667,
+              "time_s": 1.026,
+              "rss_mb": 157.2
+            },
+            "seed2": {
+              "map_at_r": 0.4969900422301133,
+              "recall_at_1": 0.5833333333333334,
+              "knn_acc": 0.5833333333333334,
+              "time_s": 0.789,
+              "rss_mb": 149.7
+            }
+          },
+          "b3_lfda": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.106,
+              "rss_mb": 156.9
+            },
+            "seed1": {
+              "map_at_r": 0.9088930080970914,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.064,
+              "rss_mb": 157.2
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.074,
+              "rss_mb": 149.7
+            }
+          },
+          "b4_triplet": {
+            "seed0": {
+              "map_at_r": 0.9803757688527052,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.778,
+              "rss_mb": 157.0
+            },
+            "seed1": {
+              "map_at_r": 0.9329130740136212,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.471,
+              "rss_mb": 157.2
+            },
+            "seed2": {
+              "map_at_r": 0.9997395833333333,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.512,
+              "rss_mb": 149.7
+            }
+          },
+          "b5_proxy_k1": {
+            "seed0": {
+              "map_at_r": 0.9831842907299326,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.082,
+              "rss_mb": 157.1
+            },
+            "seed1": {
+              "map_at_r": 0.9303416076875971,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.035,
+              "rss_mb": 157.2
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.045,
+              "rss_mb": 149.7
+            }
+          },
+          "b6_supcon": {
+            "seed0": {
+              "map_at_r": 0.9804764996794896,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.111,
+              "rss_mb": 157.1
+            },
+            "seed1": {
+              "map_at_r": 0.9105097251326062,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.624,
+              "rss_mb": 157.1
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.737,
+              "rss_mb": 149.7
+            }
+          },
+          "metricforge": {
+            "seed0": {
+              "map_at_r": 0.9814645487578411,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 9.019,
+              "rss_mb": 156.9
+            },
+            "seed1": {
+              "map_at_r": 0.9206427525783881,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 10.434,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 11.329,
+              "rss_mb": 149.7
+            }
+          }
+        }
+      },
+      "s2_concentric": {
+        "n_samples": 240,
+        "n_features": 2,
+        "n_classes": 3,
+        "methods": {
+          "b1_knn": {
+            "seed0": {
+              "map_at_r": 0.28602285262586025,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.2722751594898375,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.28227102058803155,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 149.7
+            }
+          },
+          "b2_lmnn": {
+            "seed0": {
+              "map_at_r": 0.283032240918989,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.04,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.27329663135153276,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.029,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.2809068082489806,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.028,
+              "rss_mb": 149.7
+            }
+          },
+          "b3_lfda": {
+            "seed0": {
+              "map_at_r": 0.28533887767675753,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.032,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.27235009186715275,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.024,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.282947823013538,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.022,
+              "rss_mb": 149.7
+            }
+          },
+          "b4_triplet": {
+            "seed0": {
+              "map_at_r": 0.31161045674603277,
+              "recall_at_1": 0.8875,
+              "knn_acc": 0.8875,
+              "time_s": 0.074,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.27260175520912056,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.049,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.2812141724265914,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.063,
+              "rss_mb": 149.7
+            }
+          },
+          "b5_proxy_k1": {
+            "seed0": {
+              "map_at_r": 0.28684065858247687,
+              "recall_at_1": 0.96875,
+              "knn_acc": 0.96875,
+              "time_s": 0.019,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.2728364008942709,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.018,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.2927044574254095,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.026,
+              "rss_mb": 149.7
+            }
+          },
+          "b6_supcon": {
+            "seed0": {
+              "map_at_r": 0.2930173490924707,
+              "recall_at_1": 0.90625,
+              "knn_acc": 0.90625,
+              "time_s": 0.265,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.2745303132947597,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.297,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.3074356646522645,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.311,
+              "rss_mb": 149.7
+            }
+          },
+          "metricforge": {
+            "seed0": {
+              "map_at_r": 0.2931673483251107,
+              "recall_at_1": 0.9125,
+              "knn_acc": 0.9125,
+              "time_s": 2.729,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.27346114248317954,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.058,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.3070797041720665,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 2.707,
+              "rss_mb": 149.7
+            }
+          }
+        }
+      },
+      "s3_spirals": {
+        "n_samples": 240,
+        "n_features": 2,
+        "n_classes": 3,
+        "methods": {
+          "b1_knn": {
+            "seed0": {
+              "map_at_r": 0.27547109342521414,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.27345048265786975,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.2763306369245343,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 149.7
+            }
+          },
+          "b2_lmnn": {
+            "seed0": {
+              "map_at_r": 0.27738243112035316,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.032,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.27446065312163953,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.027,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.2708770453136882,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.026,
+              "rss_mb": 149.7
+            }
+          },
+          "b3_lfda": {
+            "seed0": {
+              "map_at_r": 0.27609611775346643,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.023,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.2737883931799752,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.02,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.27577755362191125,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.022,
+              "rss_mb": 149.7
+            }
+          },
+          "b4_triplet": {
+            "seed0": {
+              "map_at_r": 0.3228188864459682,
+              "recall_at_1": 0.825,
+              "knn_acc": 0.825,
+              "time_s": 0.058,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.2727191329564597,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.044,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.27163643092378986,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.046,
+              "rss_mb": 149.7
+            }
+          },
+          "b5_proxy_k1": {
+            "seed0": {
+              "map_at_r": 0.27720301138375464,
+              "recall_at_1": 0.9375,
+              "knn_acc": 0.9375,
+              "time_s": 0.017,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.271693774864471,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.016,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.2702897001349041,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.017,
+              "rss_mb": 149.7
+            }
+          },
+          "b6_supcon": {
+            "seed0": {
+              "map_at_r": 0.29536594006015715,
+              "recall_at_1": 0.875,
+              "knn_acc": 0.875,
+              "time_s": 0.238,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.2702922778353581,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.209,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.2695579885192845,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.244,
+              "rss_mb": 149.7
+            }
+          },
+          "metricforge": {
+            "seed0": {
+              "map_at_r": 0.28696053274971334,
+              "recall_at_1": 0.89375,
+              "knn_acc": 0.89375,
+              "time_s": 2.662,
+              "rss_mb": 149.7
+            },
+            "seed1": {
+              "map_at_r": 0.2720617420255035,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.047,
+              "rss_mb": 149.7
+            },
+            "seed2": {
+              "map_at_r": 0.2694765771999668,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 2.474,
+              "rss_mb": 149.7
+            }
+          }
+        }
+      },
+      "s4_subspace": {
+        "n_samples": 1000,
+        "n_features": 200,
+        "n_classes": 50,
+        "methods": {
+          "b1_knn": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 154.1
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 162.8
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 160.5
+            }
+          },
+          "b2_lmnn": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.837,
+              "rss_mb": 158.7
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.488,
+              "rss_mb": 162.3
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.839,
+              "rss_mb": 159.9
+            }
+          },
+          "b3_lfda": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.751,
+              "rss_mb": 162.0
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.627,
+              "rss_mb": 162.3
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.967,
+              "rss_mb": 159.9
+            }
+          },
+          "b4_triplet": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.854,
+              "rss_mb": 163.7
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.973,
+              "rss_mb": 164.0
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 2.205,
+              "rss_mb": 157.8
+            }
+          },
+          "b5_proxy_k1": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.699,
+              "rss_mb": 163.8
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.606,
+              "rss_mb": 164.0
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.597,
+              "rss_mb": 157.8
+            }
+          },
+          "b6_supcon": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 2.826,
+              "rss_mb": 163.5
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 3.475,
+              "rss_mb": 164.0
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 2.01,
+              "rss_mb": 157.8
+            }
+          },
+          "metricforge": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 29.474,
+              "rss_mb": 163.4
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 23.019,
+              "rss_mb": 162.2
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 22.242,
+              "rss_mb": 99.4
+            }
+          }
+        }
+      },
+      "s5_xor_grid": {
+        "n_samples": 320,
+        "n_features": 2,
+        "n_classes": 4,
+        "methods": {
+          "b1_knn": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 96.1
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 87.2
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 87.8
+            }
+          },
+          "b2_lmnn": {
+            "seed0": {
+              "map_at_r": 0.4244480670135813,
+              "recall_at_1": 0.5875,
+              "knn_acc": 0.5875,
+              "time_s": 0.604,
+              "rss_mb": 96.1
+            },
+            "seed1": {
+              "map_at_r": 0.29280827344142446,
+              "recall_at_1": 0.48125,
+              "knn_acc": 0.48125,
+              "time_s": 0.509,
+              "rss_mb": 87.6
+            },
+            "seed2": {
+              "map_at_r": 0.30761972585123865,
+              "recall_at_1": 0.4375,
+              "knn_acc": 0.4375,
+              "time_s": 0.434,
+              "rss_mb": 87.9
+            }
+          },
+          "b3_lfda": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.06,
+              "rss_mb": 96.1
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.053,
+              "rss_mb": 87.6
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.054,
+              "rss_mb": 87.9
+            }
+          },
+          "b4_triplet": {
+            "seed0": {
+              "map_at_r": 0.9688016411873512,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.517,
+              "rss_mb": 96.1
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.423,
+              "rss_mb": 87.7
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.382,
+              "rss_mb": 87.9
+            }
+          },
+          "b5_proxy_k1": {
+            "seed0": {
+              "map_at_r": 0.9733609677487521,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.054,
+              "rss_mb": 93.5
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.028,
+              "rss_mb": 87.7
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.023,
+              "rss_mb": 87.9
+            }
+          },
+          "b6_supcon": {
+            "seed0": {
+              "map_at_r": 0.9555527617396147,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.32,
+              "rss_mb": 93.6
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.496,
+              "rss_mb": 87.7
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.551,
+              "rss_mb": 87.9
+            }
+          },
+          "metricforge": {
+            "seed0": {
+              "map_at_r": 0.9795384032610827,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 7.308,
+              "rss_mb": 87.2
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 4.777,
+              "rss_mb": 87.8
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 5.325,
+              "rss_mb": 87.9
+            }
+          }
+        }
+      },
+      "s6_hier_gauss": {
+        "n_samples": 1200,
+        "n_features": 2,
+        "n_classes": 5,
+        "methods": {
+          "b1_knn": {
+            "seed0": {
+              "map_at_r": 0.9815494506163392,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 88.0
+            },
+            "seed1": {
+              "map_at_r": 0.6738125157899553,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 88.1
+            },
+            "seed2": {
+              "map_at_r": 0.9784259397237981,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 84.2
+            }
+          },
+          "b2_lmnn": {
+            "seed0": {
+              "map_at_r": 0.9935368549449234,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.603,
+              "rss_mb": 88.0
+            },
+            "seed1": {
+              "map_at_r": 0.1704971207314075,
+              "recall_at_1": 0.37916666666666665,
+              "knn_acc": 0.37916666666666665,
+              "time_s": 2.381,
+              "rss_mb": 88.2
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.404,
+              "rss_mb": 81.7
+            }
+          },
+          "b3_lfda": {
+            "seed0": {
+              "map_at_r": 0.9986416977252457,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.566,
+              "rss_mb": 88.0
+            },
+            "seed1": {
+              "map_at_r": 0.6751596780381883,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.379,
+              "rss_mb": 88.2
+            },
+            "seed2": {
+              "map_at_r": 0.9985097357513616,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.506,
+              "rss_mb": 81.7
+            }
+          },
+          "b4_triplet": {
+            "seed0": {
+              "map_at_r": 0.9991477594108109,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.437,
+              "rss_mb": 88.0
+            },
+            "seed1": {
+              "map_at_r": 0.6945309703386565,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.962,
+              "rss_mb": 88.6
+            },
+            "seed2": {
+              "map_at_r": 0.919397213378814,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.971,
+              "rss_mb": 81.6
+            }
+          },
+          "b5_proxy_k1": {
+            "seed0": {
+              "map_at_r": 0.9913870126058127,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.1,
+              "rss_mb": 88.0
+            },
+            "seed1": {
+              "map_at_r": 0.6937120355770032,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.076,
+              "rss_mb": 88.6
+            },
+            "seed2": {
+              "map_at_r": 0.8872731227638411,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.064,
+              "rss_mb": 81.4
+            }
+          },
+          "b6_supcon": {
+            "seed0": {
+              "map_at_r": 0.8984798033223056,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 2.012,
+              "rss_mb": 88.1
+            },
+            "seed1": {
+              "map_at_r": 0.7002011242959918,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.356,
+              "rss_mb": 88.5
+            },
+            "seed2": {
+              "map_at_r": 0.8733789574585368,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.692,
+              "rss_mb": 79.9
+            }
+          },
+          "metricforge": {
+            "seed0": {
+              "map_at_r": 0.9859313506789534,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 16.238,
+              "rss_mb": 88.1
+            },
+            "seed1": {
+              "map_at_r": 0.678837537153855,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 17.728,
+              "rss_mb": 84.2
+            },
+            "seed2": {
+              "map_at_r": 0.9013147606864211,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 16.342,
+              "rss_mb": 79.2
+            }
+          }
+        }
+      },
+      "r1_digits": {
+        "n_samples": 1797,
+        "n_features": 64,
+        "n_classes": 10,
+        "methods": {
+          "b1_knn": {
+            "seed0": {
+              "map_at_r": 0.5355271522089725,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 102.2
+            },
+            "seed1": {
+              "map_at_r": 0.5038261519637351,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 99.2
+            },
+            "seed2": {
+              "map_at_r": 0.5224170682049303,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 91.3
+            }
+          },
+          "b2_lmnn": {
+            "seed0": {
+              "map_at_r": 0.3058232287786008,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 18.014,
+              "rss_mb": 102.4
+            },
+            "seed1": {
+              "map_at_r": 0.24807983927623556,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 23.366,
+              "rss_mb": 91.2
+            },
+            "seed2": {
+              "map_at_r": 0.2691712444937275,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 47.083,
+              "rss_mb": 71.1
+            }
+          },
+          "b3_lfda": {
+            "seed0": {
+              "map_at_r": 0.25043971744093746,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.082,
+              "rss_mb": 102.5
+            },
+            "seed1": {
+              "map_at_r": 0.314708426593356,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 2.737,
+              "rss_mb": 91.2
+            },
+            "seed2": {
+              "map_at_r": 0.3094626120241245,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 4.179,
+              "rss_mb": 71.1
+            }
+          },
+          "b4_triplet": {
+            "seed0": {
+              "map_at_r": 0.4254000041428304,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 3.042,
+              "rss_mb": 101.9
+            },
+            "seed1": {
+              "map_at_r": 0.3472402581769733,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 3.972,
+              "rss_mb": 91.2
+            },
+            "seed2": {
+              "map_at_r": 0.3782983856848248,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 6.076,
+              "rss_mb": 71.6
+            }
+          },
+          "b5_proxy_k1": {
+            "seed0": {
+              "map_at_r": 0.37577459585273904,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.364,
+              "rss_mb": 102.5
+            },
+            "seed1": {
+              "map_at_r": 0.285569002941456,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.296,
+              "rss_mb": 91.2
+            },
+            "seed2": {
+              "map_at_r": 0.3434866000044413,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.669,
+              "rss_mb": 71.6
+            }
+          },
+          "b6_supcon": {
+            "seed0": {
+              "map_at_r": 0.33891975755676296,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 3.069,
+              "rss_mb": 99.3
+            },
+            "seed1": {
+              "map_at_r": 0.29218167124782857,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 4.961,
+              "rss_mb": 91.2
+            },
+            "seed2": {
+              "map_at_r": 0.35280378210897145,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 7.318,
+              "rss_mb": 71.6
+            }
+          },
+          "metricforge": {
+            "seed0": {
+              "map_at_r": 0.36294963493909754,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 37.915,
+              "rss_mb": 98.0
+            },
+            "seed1": {
+              "map_at_r": 0.33840836828982024,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 56.287,
+              "rss_mb": 90.9
+            },
+            "seed2": {
+              "map_at_r": 0.29525723129693143,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 73.435,
+              "rss_mb": 70.7
+            }
+          }
+        }
+      },
+      "r2_wine": {
+        "n_samples": 178,
+        "n_features": 13,
+        "n_classes": 3,
+        "methods": {
+          "b1_knn": {
+            "seed0": {
+              "map_at_r": 0.7574588567595566,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 67.9
+            },
+            "seed1": {
+              "map_at_r": 0.7664721434248358,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 68.1
+            },
+            "seed2": {
+              "map_at_r": 0.7718061435761876,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 68.3
+            }
+          },
+          "b2_lmnn": {
+            "seed0": {
+              "map_at_r": 0.5343599593006373,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.05,
+              "rss_mb": 67.9
+            },
+            "seed1": {
+              "map_at_r": 0.55247035158092,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.08,
+              "rss_mb": 68.1
+            },
+            "seed2": {
+              "map_at_r": 0.37717440099955635,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.056,
+              "rss_mb": 68.3
+            }
+          },
+          "b3_lfda": {
+            "seed0": {
+              "map_at_r": 0.7183816414988249,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.023,
+              "rss_mb": 67.9
+            },
+            "seed1": {
+              "map_at_r": 0.8007243080998476,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.044,
+              "rss_mb": 68.1
+            },
+            "seed2": {
+              "map_at_r": 0.7361140687196707,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.022,
+              "rss_mb": 68.3
+            }
+          },
+          "b4_triplet": {
+            "seed0": {
+              "map_at_r": 0.7732920664250955,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.107,
+              "rss_mb": 68.1
+            },
+            "seed1": {
+              "map_at_r": 0.6608592188085743,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.105,
+              "rss_mb": 68.1
+            },
+            "seed2": {
+              "map_at_r": 0.5549046051236145,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.146,
+              "rss_mb": 68.3
+            }
+          },
+          "b5_proxy_k1": {
+            "seed0": {
+              "map_at_r": 0.7803689713651203,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.05,
+              "rss_mb": 68.1
+            },
+            "seed1": {
+              "map_at_r": 0.6629951087788654,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.072,
+              "rss_mb": 68.1
+            },
+            "seed2": {
+              "map_at_r": 0.5446507659637825,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.052,
+              "rss_mb": 68.3
+            }
+          },
+          "b6_supcon": {
+            "seed0": {
+              "map_at_r": 0.7984092229435611,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.408,
+              "rss_mb": 68.1
+            },
+            "seed1": {
+              "map_at_r": 0.6872231291568482,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.421,
+              "rss_mb": 68.1
+            },
+            "seed2": {
+              "map_at_r": 0.5424966702266717,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.373,
+              "rss_mb": 68.3
+            }
+          },
+          "metricforge": {
+            "seed0": {
+              "map_at_r": 0.7832566553467178,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 3.592,
+              "rss_mb": 68.1
+            },
+            "seed1": {
+              "map_at_r": 0.661383240390952,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.14,
+              "rss_mb": 68.2
+            },
+            "seed2": {
+              "map_at_r": 0.536806950332613,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 3.205,
+              "rss_mb": 68.3
+            }
+          }
+        }
+      },
+      "r3_breast_cancer": {
+        "n_samples": 569,
+        "n_features": 30,
+        "n_classes": 2,
+        "methods": {
+          "b1_knn": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 68.7
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 69.9
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 69.9
+            }
+          },
+          "b2_lmnn": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.198,
+              "rss_mb": 69.6
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.234,
+              "rss_mb": 69.9
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.197,
+              "rss_mb": 70.6
+            }
+          },
+          "b3_lfda": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.488,
+              "rss_mb": 69.6
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.624,
+              "rss_mb": 69.9
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.392,
+              "rss_mb": 70.6
+            }
+          },
+          "b4_triplet": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.315,
+              "rss_mb": 69.8
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.332,
+              "rss_mb": 69.9
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.365,
+              "rss_mb": 70.6
+            }
+          },
+          "b5_proxy_k1": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.138,
+              "rss_mb": 69.8
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.177,
+              "rss_mb": 69.9
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.157,
+              "rss_mb": 70.6
+            }
+          },
+          "b6_supcon": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.661,
+              "rss_mb": 69.8
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 1.794,
+              "rss_mb": 69.9
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 2.121,
+              "rss_mb": 70.6
+            }
+          },
+          "metricforge": {
+            "seed0": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.32,
+              "rss_mb": 69.9
+            },
+            "seed1": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.343,
+              "rss_mb": 69.9
+            },
+            "seed2": {
+              "map_at_r": 1.0,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.385,
+              "rss_mb": 70.6
+            }
+          }
+        }
+      },
+      "r4_iris": {
+        "n_samples": 150,
+        "n_features": 4,
+        "n_classes": 3,
+        "methods": {
+          "b1_knn": {
+            "seed0": {
+              "map_at_r": 0.644281484744363,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 70.7
+            },
+            "seed1": {
+              "map_at_r": 0.41144172161525,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 70.7
+            },
+            "seed2": {
+              "map_at_r": 0.6524584082310174,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.0,
+              "rss_mb": 70.7
+            }
+          },
+          "b2_lmnn": {
+            "seed0": {
+              "map_at_r": 0.48822674807340083,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.047,
+              "rss_mb": 70.7
+            },
+            "seed1": {
+              "map_at_r": 0.39244044238655174,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.045,
+              "rss_mb": 70.7
+            },
+            "seed2": {
+              "map_at_r": 0.5198556637193279,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.059,
+              "rss_mb": 70.7
+            }
+          },
+          "b3_lfda": {
+            "seed0": {
+              "map_at_r": 0.6311529288840972,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.023,
+              "rss_mb": 70.7
+            },
+            "seed1": {
+              "map_at_r": 0.40736877170871777,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.02,
+              "rss_mb": 70.7
+            },
+            "seed2": {
+              "map_at_r": 0.643179899603641,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.03,
+              "rss_mb": 70.7
+            }
+          },
+          "b4_triplet": {
+            "seed0": {
+              "map_at_r": 0.5818899585462589,
+              "recall_at_1": 0.97,
+              "knn_acc": 0.97,
+              "time_s": 0.103,
+              "rss_mb": 70.7
+            },
+            "seed1": {
+              "map_at_r": 0.3500492920106336,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.102,
+              "rss_mb": 70.7
+            },
+            "seed2": {
+              "map_at_r": 0.5523200512308027,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.136,
+              "rss_mb": 70.7
+            }
+          },
+          "b5_proxy_k1": {
+            "seed0": {
+              "map_at_r": 0.5861132299841203,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.047,
+              "rss_mb": 70.7
+            },
+            "seed1": {
+              "map_at_r": 0.3502279576049078,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.063,
+              "rss_mb": 70.7
+            },
+            "seed2": {
+              "map_at_r": 0.5339212022855008,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.04,
+              "rss_mb": 70.7
+            }
+          },
+          "b6_supcon": {
+            "seed0": {
+              "map_at_r": 0.6091187924611767,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.439,
+              "rss_mb": 70.7
+            },
+            "seed1": {
+              "map_at_r": 0.34920734324117364,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.422,
+              "rss_mb": 70.7
+            },
+            "seed2": {
+              "map_at_r": 0.5622100494009977,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.447,
+              "rss_mb": 70.7
+            }
+          },
+          "metricforge": {
+            "seed0": {
+              "map_at_r": 0.5876534663400057,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 3.803,
+              "rss_mb": 70.7
+            },
+            "seed1": {
+              "map_at_r": 0.34927481526990545,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 0.167,
+              "rss_mb": 70.7
+            },
+            "seed2": {
+              "map_at_r": 0.5257393478334148,
+              "recall_at_1": 1.0,
+              "knn_acc": 1.0,
+              "time_s": 3.428,
+              "rss_mb": 70.7
+            }
+          }
+        }
+      }
+    }
+  },
+  "aggregate": {
+    "s1_gauss_blobs": {
+      "b1_knn": {
+        "map_mean": 0.9568390630321565,
+        "map_std": 0.042497428959552004
+      },
+      "b2_lmnn": {
+        "map_mean": 0.5174546880514681,
+        "map_std": 0.2647984507701896
+      },
+      "b3_lfda": {
+        "map_mean": 0.9696310026990305,
+        "map_std": 0.04294824785870304
+      },
+      "b4_triplet": {
+        "map_mean": 0.9710094753998866,
+        "map_std": 0.02807420140446417
+      },
+      "b5_proxy_k1": {
+        "map_mean": 0.9711752994725099,
+        "map_std": 0.029678665829770707
+      },
+      "b6_supcon": {
+        "map_mean": 0.9636620749373653,
+        "map_std": 0.03842022890368081
+      },
+      "metricforge": {
+        "map_mean": 0.9673691004454098,
+        "map_std": 0.03389596265958576
+      },
+      "delta_vs_best_base": -0.00380619902710011
+    },
+    "s2_concentric": {
+      "b1_knn": {
+        "map_mean": 0.28018967756790975,
+        "map_std": 0.005802227056117852
+      },
+      "b2_lmnn": {
+        "map_mean": 0.27907856017316746,
+        "map_std": 0.004179504889539128
+      },
+      "b3_lfda": {
+        "map_mean": 0.2802122641858161,
+        "map_std": 0.005644442740542418
+      },
+      "b4_triplet": {
+        "map_mean": 0.2884754614605816,
+        "map_std": 0.016732492098216846
+      },
+      "b5_proxy_k1": {
+        "map_mean": 0.2841271723007191,
+        "map_std": 0.008334953446464493
+      },
+      "b6_supcon": {
+        "map_mean": 0.29166110901316494,
+        "map_std": 0.01346774114578357
+      },
+      "metricforge": {
+        "map_mean": 0.2912360649934522,
+        "map_std": 0.013792493465353549
+      },
+      "delta_vs_best_base": -0.000425044019712717
+    },
+    "s3_spirals": {
+      "b1_knn": {
+        "map_mean": 0.2750840710025394,
+        "map_std": 0.0012072453262658947
+      },
+      "b2_lmnn": {
+        "map_mean": 0.274240043185227,
+        "map_std": 0.002660390031733737
+      },
+      "b3_lfda": {
+        "map_mean": 0.27522068818511763,
+        "map_std": 0.0010211015335722193
+      },
+      "b4_triplet": {
+        "map_mean": 0.28905815010873925,
+        "map_std": 0.02387653729007906
+      },
+      "b5_proxy_k1": {
+        "map_mean": 0.2730621621277099,
+        "map_std": 0.0029836030659273574
+      },
+      "b6_supcon": {
+        "map_mean": 0.27840540213826653,
+        "map_std": 0.011996657316376126
+      },
+      "metricforge": {
+        "map_mean": 0.2761662839917279,
+        "map_std": 0.007705306568884891
+      },
+      "delta_vs_best_base": -0.012891866117011375
+    },
+    "s4_subspace": {
+      "b1_knn": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "b2_lmnn": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "b3_lfda": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "b4_triplet": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "b5_proxy_k1": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "b6_supcon": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "metricforge": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "delta_vs_best_base": 0.0
+    },
+    "s5_xor_grid": {
+      "b1_knn": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "b2_lmnn": {
+        "map_mean": 0.3416253554354148,
+        "map_std": 0.058875835141944624
+      },
+      "b3_lfda": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "b4_triplet": {
+        "map_mean": 0.9896005470624504,
+        "map_std": 0.01470704738554335
+      },
+      "b5_proxy_k1": {
+        "map_mean": 0.9911203225829174,
+        "map_std": 0.012557760232736335
+      },
+      "b6_supcon": {
+        "map_mean": 0.9851842539132049,
+        "map_std": 0.02095262905262175
+      },
+      "metricforge": {
+        "map_mean": 0.9931794677536941,
+        "map_std": 0.009645689205328666
+      },
+      "delta_vs_best_base": -0.006820532246305855
+    },
+    "s6_hier_gauss": {
+      "b1_knn": {
+        "map_mean": 0.8779293020433642,
+        "map_std": 0.14433799662109956
+      },
+      "b2_lmnn": {
+        "map_mean": 0.7213446585587769,
+        "map_std": 0.38951696626193927
+      },
+      "b3_lfda": {
+        "map_mean": 0.8907703705049319,
+        "map_std": 0.15245979225789802
+      },
+      "b4_triplet": {
+        "map_mean": 0.8710253143760939,
+        "map_std": 0.12897733006489775
+      },
+      "b5_proxy_k1": {
+        "map_mean": 0.8574573903155525,
+        "map_std": 0.12334053514111928
+      },
+      "b6_supcon": {
+        "map_mean": 0.8240199616922781,
+        "map_std": 0.08815078553779372
+      },
+      "metricforge": {
+        "map_mean": 0.8553612161730765,
+        "map_std": 0.1295130592291808
+      },
+      "delta_vs_best_base": -0.03540915433185543
+    },
+    "r1_digits": {
+      "b1_knn": {
+        "map_mean": 0.5205901241258793,
+        "map_std": 0.013006194617389551
+      },
+      "b2_lmnn": {
+        "map_mean": 0.2743581041828546,
+        "map_std": 0.0238572475763863
+      },
+      "b3_lfda": {
+        "map_mean": 0.29153691868613935,
+        "map_std": 0.029138915620010718
+      },
+      "b4_triplet": {
+        "map_mean": 0.3836462160015428,
+        "map_std": 0.0321318734715146
+      },
+      "b5_proxy_k1": {
+        "map_mean": 0.33494339959954544,
+        "map_std": 0.037318466858359274
+      },
+      "b6_supcon": {
+        "map_mean": 0.32796840363785434,
+        "map_std": 0.025932080464270132
+      },
+      "metricforge": {
+        "map_mean": 0.33220507817528305,
+        "map_std": 0.027981255438803098
+      },
+      "delta_vs_best_base": -0.1883850459505963
+    },
+    "r2_wine": {
+      "b1_knn": {
+        "map_mean": 0.7652457145868601,
+        "map_std": 0.005921106626334442
+      },
+      "b2_lmnn": {
+        "map_mean": 0.4880015706270379,
+        "map_std": 0.07871464380010178
+      },
+      "b3_lfda": {
+        "map_mean": 0.7517400061061145,
+        "map_std": 0.03538555378630844
+      },
+      "b4_triplet": {
+        "map_mean": 0.6630186301190948,
+        "map_std": 0.08916938228761585
+      },
+      "b5_proxy_k1": {
+        "map_mean": 0.662671615369256,
+        "map_std": 0.09623182625097364
+      },
+      "b6_supcon": {
+        "map_mean": 0.6760430074423603,
+        "map_std": 0.10477453571258538
+      },
+      "metricforge": {
+        "map_mean": 0.6604822820234276,
+        "map_std": 0.10061468769475566
+      },
+      "delta_vs_best_base": -0.10476343256343246
+    },
+    "r3_breast_cancer": {
+      "b1_knn": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "b2_lmnn": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "b3_lfda": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "b4_triplet": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "b5_proxy_k1": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "b6_supcon": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "metricforge": {
+        "map_mean": 1.0,
+        "map_std": 0.0
+      },
+      "delta_vs_best_base": 0.0
+    },
+    "r4_iris": {
+      "b1_knn": {
+        "map_mean": 0.5693938715302101,
+        "map_std": 0.1117389122508215
+      },
+      "b2_lmnn": {
+        "map_mean": 0.4668409513930935,
+        "map_std": 0.0541705570801376
+      },
+      "b3_lfda": {
+        "map_mean": 0.5605672000654853,
+        "map_std": 0.10843886401842567
+      },
+      "b4_triplet": {
+        "map_mean": 0.49475310059589844,
+        "map_std": 0.10303070422280887
+      },
+      "b5_proxy_k1": {
+        "map_mean": 0.4900874632915097,
+        "map_std": 0.10116492454402964
+      },
+      "b6_supcon": {
+        "map_mean": 0.5068453950344494,
+        "map_std": 0.11310002674257297
+      },
+      "metricforge": {
+        "map_mean": 0.4875558764811087,
+        "map_std": 0.10099365800182518
+      },
+      "delta_vs_best_base": -0.08183799504910144
+    }
+  },
+  "ablation": {
+    "s4_subspace": {
+      "metricforge_full": 1.0,
+      "A1_hat_off": 1.0,
+      "A3_k1": 1.0,
+      "A5_bidir_off": 1.0,
+      "A7_all_off": 1.0,
+      "B5_proxy_k1": 1.0,
+      "A7_vs_B5_diff": 0.0,
+      "A8_kappa_maps": {
+        "0.15": 1.0,
+        "0.25": 1.0,
+        "0.4": 1.0
+      },
+      "A8_kappa_range": 0.0
+    },
+    "s6_hier_gauss": {
+      "metricforge_full": 0.9892,
+      "A1_hat_off": 0.9923,
+      "A3_k1": 0.9938,
+      "A5_bidir_off": 0.9892,
+      "A7_all_off": 0.9918,
+      "B5_proxy_k1": 0.9918,
+      "A7_vs_B5_diff": 0.0,
+      "A8_kappa_maps": {
+        "0.15": 0.9966,
+        "0.25": 0.9892,
+        "0.4": 0.9845
+      },
+      "A8_kappa_range": 0.012
+    }
+  },
+  "elapsed_s": 927.6
+}

@@ -1,0 +1,42 @@
+# 作者: 晨星 —— MetricForge CI（GitHub Actions）
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.13"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install core deps + dev tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest ruff
+
+      - name: Lint (ruff)
+        run: |
+          ruff check metricforge
+          ruff format --check metricforge
+
+      - name: Unit tests (invariants + modules)
+        run: pytest -q
+
+      - name: Smoke (single method × single dataset)
+        run: |
+          python -c "from metricforge.bench import run_benchmark, aggregate; \
+          r=run_benchmark(seeds=(0,), datasets=['s1_gauss_blobs'], protocol='open', fast=True, dim_out=8, epochs=3); \
+          print('smoke OK', aggregate(r))"

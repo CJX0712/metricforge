@@ -1,0 +1,5 @@
+# MetricForge 运行时必需依赖（Tier-1，自研纯 numpy DML，零第三方 DML 依赖）
+# 锁定版本见 requirements-lock.txt（生成环境：Python 3.13.x, Windows 11）
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1

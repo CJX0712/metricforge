@@ -1,0 +1,8 @@
+# MetricForge 可选依赖（Tier-0，oracle 基线 / 高阶能力）
+# 全部经 try/except 探测，缺失时自动降级，不影响核心功能。
+# 安装： pip install -r requirements-optional.txt
+torch==2.14.0          # B8 Forge-Oracle 对照（CPU-only slim 即可，约 124MB）
+metric-learn==0.7.0    # B7 NCA·ITML oracle 对照（需 shim：force_all_finite→ensure_all_finite）
+pytorch-metric-learning==2.9.0
+faiss-cpu==1.15.1
+umap-learn==0.5.12
