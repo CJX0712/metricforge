@@ -22,3 +22,5 @@ known-first-party = ["metricforge"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+# 仓库根加入 sys.path，保证 CI（Linux checkout）可直接 import metricforge 源码树
+pythonpath = ["."]
