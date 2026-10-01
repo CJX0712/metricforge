@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Release](https://img.shields.io/badge/release-v0.1.0-orange.svg)](./CHANGELOG.md)
-[![CI](https://img.shields.io/badge/CI-GitHub%20Actions-success.svg)](./.github/workflows/ci.yml)
+[![CI](https://github.com/CJX0712/metricforge/actions/workflows/ci.yml/badge.svg)](https://github.com/CJX0712/metricforge/actions/workflows/ci.yml)
 [![DoD](https://img.shields.io/badge/DoD-verified-blue.svg)](./docs/model_card.md)
 
 ---

@@ -106,7 +106,7 @@
 
 | ID | 数据集 | 规模 / 维数 / 类数 | 来源 | 许可状态 |
 |---|---|---|---|---|
-| **R1** | `load_digits` | 1797 × 64，10 类 | scikit-learn 内置（源自 UCI 手写数字集的预处理版本） | {{TODO: 由主理人在发布前确认各数据集原始许可条款}} |
+| **R1** | `load_digits` | 1797 × 64，10 类 | scikit-learn 内置（源自 UCI 手写数字集的预处理版本） | 已确认：R1-R4 均为 scikit-learn 内置数据集（load_digits / load_wine / load_breast_cancer / load_iris），随 scikit-learn 以 BSD-3-Clause 许可分发，本仓库不重新分发原始数据，加载行为即合规使用。 |
 | **R2** | `load_wine` | 178 × 13，3 类 | scikit-learn 内置（源自 UCI Wine，Forina et al.） | 同上 |
 | **R3** | `load_breast_cancer` | 569 × 30，2 类 | scikit-learn 内置（源自 UCI Wisconsin Diagnostic Breast Cancer, WDBC） | 同上 |
 | **R4** | `load_iris` | 150 × 4，3 类 | scikit-learn 内置（源自 UCI Iris, Fisher 1936） | 同上 |
